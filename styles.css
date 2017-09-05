@@ -1,0 +1,239 @@
+body {
+  margin:0;
+  font-family: Montserrat, sans-serif;
+  color:#fff;
+}
+
+h1 {
+  font-size:30px;
+  color: #fff;
+  text-shadow: 1px 1px 0 rgba(21,65,90,.5);
+  letter-spacing: -.02em;
+}
+
+h2 {
+  font-size:16px;
+  color: #fff;
+  text-shadow: 1px 1px 0 rgba(21,65,90,.5);
+}
+
+.embedded-mood {
+  background-image:url("images/birthdaybash-bg5.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position:center center;
+  height:360px;
+  background-repeat:no-repeat;
+  overflow:hidden;
+}
+
+.slots {
+  position: absolute;
+  right: 20px;
+  top: -400px;
+}
+
+.slots img {
+  width:250px;
+}
+
+.mrg {
+  position: absolute;
+  top: 10px;
+  right: -300px;
+  overflow: hidden;
+  height: 350px;
+}
+
+.cake {
+  position: absolute;
+  top: 158px;
+  right: -300px;
+  overflow: hidden;
+}
+
+.cake img {
+  width:200px;
+}
+
+.box {
+  width: 100%;
+  position: absolute;
+  top: 200px;
+  height: 160px;
+  background: linear-gradient(0deg,rgba(0,0,0,.7) 20%,transparent 100%);
+  background: -webkit-linear-gradient(90deg,rgba(0,0,0,.7) 20%,transparent 100%);
+  background: -o-linear-gradient(90deg,rgba(0,0,0,.7) 20%,transparent 100%);
+}
+
+.embedded-mood h1 {
+  position: absolute;
+  top: 230px;
+  left:10px;
+  width:100%;
+}
+
+.embedded-mood h2 {
+  position: absolute;
+  top: 265px;
+  left:10px;
+  width:100%;
+}
+
+.embedded-mood h2 a {
+  color:#fff;
+  text-decoration: underline;
+}
+
+.btn {
+  min-width:150px;
+  border: none;
+  padding:10px 30px;
+  border-radius:3px;
+  margin-left:6px;
+}
+
+.btn-primary {
+    background-color: #f68d46;
+    min-height:44px;
+    position:absolute;
+    top:308px;
+}
+
+.btn-primary {
+    background-color: #f68d46;
+}
+
+.btn-primary:hover {
+    background-color: #f47e2c;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .embedded-mood {
+    height:280px;
+  }
+
+  .slots {
+    right: 45px;
+  }
+
+  .slots img {
+    width:170px;
+  }
+
+  .mrg {
+    right: -300px;
+    height: 270px;
+  }
+
+  .cake {
+    top: 118px;
+  }
+
+  .cake img {
+    width:160px;
+  }
+
+  .box {
+    top: 180px;
+    height: 100px;
+  }
+
+  .btn-primary {
+    top:228px;
+  }
+
+  .embedded-mood h2 {
+    top:185px;
+  }
+
+  .embedded-mood h1 {
+    top:150px;
+  }
+
+}
+
+@media screen and (max-width: 960px) {
+
+  .embedded-mood {
+    height:216px;
+  }
+
+  .mrg {
+    height: 206px;
+  }
+
+  .mrg img {
+    width:230px;
+  }
+
+  .cake {
+    top: 84px;
+  }
+
+  .cake img {
+    width:130px;
+  }
+
+  .box {
+    top: 96px;
+    height: 120px;
+  }
+
+  .btn-primary {
+    top:164px;
+  }
+
+  .embedded-mood h2 {
+    top:121px;
+  }
+
+  .embedded-mood h1 {
+    top:86px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .embedded-mood {
+    height:160px;
+  }
+
+  .mrg {
+    height: 150px;
+  }
+
+  .mrg img {
+    width:150px;
+  }
+
+  .cake {
+    top: 84px;
+  }
+
+  .cake img {
+    width:130px;
+  }
+
+  .box {
+    top: 40px;
+    height: 120px;
+  }
+
+  .btn-primary {
+    top:107px;
+  }
+
+  .embedded-mood h2 {
+    top:64px;
+  }
+
+  .embedded-mood h1 {
+    top:29px;
+  }
+
+}
